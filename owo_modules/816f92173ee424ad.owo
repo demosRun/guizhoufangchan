@@ -1,6 +1,6 @@
 <template>
   <ul class="news-list">
-    <li :for="5">
+    <li :for="7">
       <a target="_blank" href="#">雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运</a>
     </li>
   </ul>
@@ -12,13 +12,14 @@
   margin: 0;
   padding: 0;
   li {
-    color: #595757;
-    line-height: 38px;
+    color: #535353;
+    line-height: 40px;
     font-size: 15px;
     position: relative;
     cursor: pointer;
     a {
       color: black;
+      color: #535353;
       text-decoration: none;
     }
     a:hover {
@@ -35,18 +36,18 @@
   }
   li {
     overflow: hidden;
-    height: 38px;
+    height: 40px;
     background-repeat: no-repeat;
     background-position: 5px center;
     padding-left: 15px;
     background-image: url('http://opinion.people.com.cn/img/MAIN/2014/06/114590/images/dot.gif');
   }
   a {
-    height: 36px;
+    height: 40px;
     overflow: hidden;
     display: block;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 

@@ -12,9 +12,59 @@
     plug(_name="image3" _src="./src/module/image3.owo")
     plug(_name="image4" _src="./src/module/image4.owo")
     //- 新闻列表
-    .news-box
-      .left
-        plug(_name="module40" _src="https://template.owo.ink/816f92173ee424ad.owo")
+    .news-box.clear
+      plug.left.fl(_name="module40" _src="https://template.owo.ink/816f92173ee424ad.owo")
+      .cent.fl
+        plug(_name="module12" _src="https://template.owo.ink/3a7fcd0d9251f38d.owo")
+      .right.fl
+        .show-image
+          img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg")
+          .info 底部显示文字
+        .h20
+        .show-image
+          img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg")
+          .info 底部显示文字
+    .two-box
+      .left-box
+        //- 左右两侧标题
+        .title-bar.clear
+          img.left.fl(src="@|ppfq.png|")
+          //- 右侧的广告
+          .right.fr
+            a(href="#" target="_blank")
+              img(src="@|ppfq.png|")
+        //- 列表hezi
+        .news-list-box.clear
+          //- 左侧文字列表
+          ul.left.fl
+            li.clear
+              .card-left.fl
+                h2 大标题大标题大标题大标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......
+              .card-right.fr
+                a(href="#" target="_blank")
+                  img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg" width="146" height="132")
+            li.clear
+              .card-left.fl
+                h2 大标题大标题大标题大标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......
+              .card-right.fr
+                a(href="#" target="_blank")
+                  img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg" width="146" height="132")
+            li.clear
+              .card-left.fl
+                h2 大标题大标题大标题大标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......
+              .card-right.fr
+                a(href="#" target="_blank")
+                  img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg" width="146" height="132")
+            li.clear
+              .card-left.fl
+                h2 大标题大标题大标题大标题
+                p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......
+              .card-right.fr
+                a(href="#" target="_blank")
+                  img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg" width="146" height="132")
 </template>
 
 <script>
@@ -34,5 +84,81 @@
   width: 100%;
   height: 300px;
 }
-
+.news-list {
+  width: 300px;
+}
+.news-box {
+  margin-top: 20px;
+  .cent {
+    margin: 0 25px;
+  }
+  .right {
+    width: 240px;
+    overflow: hidden;
+    .show-image {
+      height: 130px;
+      position: relative;
+      img {
+        width: 240px;
+        height: 130px;
+      }
+    }
+    .info {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      bottom: 0;
+      color: white;
+      text-align: center;
+      line-height: 25px;
+    }
+  }
+}
+.title-bar {
+  .left {
+    height: 80px;
+  }
+  .right {
+    width: 550px;
+    height: 80px;
+    a, img {
+      width: 100%;
+      height: 80px;
+      display: block;
+    }
+  }
+}
+.left-box {
+  width: 800px;
+}
+.two-box {
+  margin-top: 20px;
+}
+.news-list-box {
+  .card-left {
+    width: 300px;
+    h2 {
+      line-height: 40px;
+    }
+    p {
+      font-size: 14px;
+      text-indent: 2em;
+      line-height: 1.7;
+    }
+  }
+  li {
+    width: 460px;
+    padding: 10px 5px;
+    margin: 15px 0;
+  }
+  li:nth-child(odd) {
+    background: #eeeeee;
+  }
+  .card-right {
+    img {
+      height: 132px;
+      width: 146px;
+    }
+  }
+}
 </style>
