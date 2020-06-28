@@ -1,0 +1,89 @@
+<template lang="pug">
+.top_nav.clearfix.clear.cj01
+  .white.pos_re_login.cj02.clear
+    .fl
+      a(href='http://www.people.com.cn/', target='_blank') 网站首页
+      a(href='http://politics.people.com.cn/', target='_blank') 时政
+      a(href='http://world.people.com.cn/', target='_blank') 国际
+      a(href='http://finance.people.com.cn/', target='_blank') 财经
+      a(href='http://tw.people.com.cn/', target='_blank') 台湾
+      a(href='http://military.people.com.cn/', target='_blank') 军事
+      a(href='http://opinion.people.com.cn/', target='_blank') 观点
+      a(href='http://leaders.people.com.cn/', target='_blank') 领导
+      a(href='http://renshi.people.com.cn/', target='_blank') 人事
+      a(href='http://theory.people.com.cn/', target='_blank') 理论
+      a(href='http://legal.people.com.cn/', target='_blank') 法治
+      a(href='http://society.people.com.cn/', target='_blank') 社会
+      a(href='http://industry.people.com.cn/', target='_blank') 产经
+      a(href='http://edu.people.com.cn/', target='_blank') 教育
+      a(href='http://kpzg.people.com.cn/', target='_blank') 科普
+      a(href='http://sports.people.com.cn/', target='_blank') 体育
+      a(href='http://culture.people.com.cn/', target='_blank') 文化
+      a(href='http://art.people.com.cn/', target='_blank') 书画
+      a(href='http://house.people.com.cn/', target='_blank') 房产
+      a(href='http://auto.people.com.cn/', target='_blank') 汽车
+      a(href='http://travel.people.com.cn/', target='_blank') 旅游
+      a(href='http://health.people.com.cn/', target='_blank') 健康
+      a(href='http://tv.people.com.cn/', target='_blank') 视频
+    .fr
+      #txz_dlq
+        a#login_button 登录
+        a(href='http://sso.people.com.cn/u/reg?appCode=ENw9NE44', target='_blank') 注册
+      #txz_dlh(style='display:none;')
+        span#loginMsg
+        a#logout(target='_self') 退出
+    #p_login.p_login(style='display: none;')
+      #txz_dlq
+        p
+          | 登录人民网通行证    
+          a.red(href='http://sso.people.com.cn/u/reg?appCode=ENw9NE44') 立即注册
+        form(name='loginForm', onssologin='loginSuccess()', onssoerror='alert(msg)')
+          p
+            input(type='text', value='请输入用户名', onfocus="this.value='';this.style.color='#000';", onblur="if(!value){value=defaultValue;this.style.color='#d0d0d0';}", name='username', data-suggest='off')
+          p
+            input(type='password', value='', name='password')
+          span(style='display:none;')
+            input(type='checkbox', name='remember', checked='checked', value='1')
+            label(for='rememberMe') 记住登录状态
+          p
+            a(href='http://sso.people.com.cn/u/findpwd/user') 忘记密码？
+          p.tc
+            input.people_button_sub(type='submit', name='', value='登录') 
+</template>
+
+
+<style lang="less">
+.top_nav {
+  height: 60px;
+  background-color: #e60012;
+  line-height: 60px;
+  color: white;
+  width: 100%;
+  min-width: 1000px;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
+  .fl a {
+    margin-right: 5px;
+    font-size: 15px;
+  }
+  .fr a {
+    margin-left: 5px;
+    font-size: 16px;
+  }
+}
+.pos_re_login {
+  width: 1000px;
+  margin: 0 auto;
+}
+</style>

@@ -1,0 +1,38 @@
+<template lang="pug">
+.home
+  plug(_name="module158" _src="https://template.owo.ink/cdf8338ec291e66c.owo")
+  plug(_name="module153" _src="https://template.owo.ink/d0e98df13de946b0.owo")
+  plug(_name="daohang" _src="./src/module/daohang.owo")
+  //- 导航栏
+  plug(_name="module60" _src="https://template.owo.ink/c2cab888fc67bf34.owo")
+  .w1000
+    //- banner
+    .banner
+      img(src="http://www.people.com.cn/NMediaFile/2020/0627/MAIN202006271254040554431252011.jpg")
+    plug(_name="image3" _src="./src/module/image3.owo")
+    plug(_name="image4" _src="./src/module/image4.owo")
+    //- 新闻列表
+    .news-box
+      .left
+        plug(_name="module40" _src="https://template.owo.ink/816f92173ee424ad.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.main-bar {
+  margin: 20px auto;
+}
+.banner, .banner img {
+  width: 100%;
+  height: 300px;
+}
+
+</style>

@@ -1,0 +1,42 @@
+<template lang="pug">
+.w1000.channel-banner
+  .logo
+    a(href='http://www.people.com.cn/', target='_blank')
+      img(src='http://www.people.com.cn/img/MAIN/2016/11/116906/images/logo_rmw.png', width='125', height='48')
+    a(href='http://js.people.com.cn', target='_blank')
+      | 贵州房产
+</template>
+
+
+<style lang="less">
+.channel-banner {
+  width: 1000px;
+  height: 150px;
+  position: relative;
+  background: url('http://gz.people.com.cn/img/LOCAL/2016/09/112887/images/guizhou.jpg') no-repeat top center;
+}
+.logo {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  line-height: 56px;
+  font-family: "微软雅黑","Microsoft YaHei";
+  font-size: 32px;
+  font-weight: normal;
+  color: #e30116;
+  a, a:active, a:hover {
+    color: #e40011;
+    text-decoration: none;
+  }
+  a {
+    display: block;
+    float: left;
+  }
+  img {
+    margin-right: 10px;
+  }
+}
+img {
+  display: block;
+}
+</style>

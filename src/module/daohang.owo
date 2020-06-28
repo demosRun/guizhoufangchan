@@ -1,0 +1,41 @@
+<template>
+<div class="pd_nav w1000 white  clear clearfix">
+   <a href="http://gz.people.com.cn" target="_blank">贵州频道首页</a>
+   <a href="/GB/344124/index.html" target="_blank">头条</a>
+   <a href="/GB/194827/index.html" target="_blank">要闻</a>
+   <a href="/GB/222152/index.html" target="_blank">原创</a>
+   <a href="/GB/222174/index.html" target="_blank">时评</a>
+   <a href="/GB/194834/index.html" target="_blank">人事</a>
+   <a href="/GB/369574/index.html" target="_blank">纪委</a>
+   <a href="/GB/344723/index.html" target="_blank">直播</a>
+   <a href="/GB/194849/index.html" target="_blank">地方</a>
+   <a href="/GB/222162/index.html" target="_blank">视频</a>
+   <a href="/GB/195053/index.html" target="_blank">专题</a>
+   <a href="/GB/371753/index.html" target="_blank">旅游</a>
+   <a href="/GB/344102/index.html" target="_blank">社会</a>
+   <a href="/GB/344103/index.html" target="_blank">军事</a>
+   <a href="/GB/358160/index.html" target="_blank">教育</a>
+   <a href="/GB/370110/index.html" target="_blank">文化</a>
+   <a href="/GB/372080/index.html" target="_blank">企业</a>
+</div>
+</template>
+
+
+<style original>
+.pd_nav {
+  background: #e00011;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-family: "微软雅黑","Microsoft YaHei";
+  text-align:center;
+  color: white;
+}
+.pd_nav a {
+  margin: auto 8px;
+  color: white;
+}
+.pd_nav a:hover {
+  color: white;
+}
+</style>

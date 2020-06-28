@@ -1,0 +1,53 @@
+<template>
+  <ul class="news-list">
+    <li :for="5">
+      <a target="_blank" href="#">雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运雅加达亚运夺金练兵兼顾 中国军团提速迈向东京奥运</a>
+    </li>
+  </ul>
+</template>
+
+<style lang="less">
+.news-list {
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  li {
+    color: #595757;
+    line-height: 38px;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #c00;
+      text-decoration: underline;
+    }
+    .time {
+      position: absolute;
+      right: 20px;
+      bottom: 0;
+      font-size: 13px;
+      clear: both;
+    }
+  }
+  li {
+    overflow: hidden;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 15px;
+    background-image: url('http://opinion.people.com.cn/img/MAIN/2014/06/114590/images/dot.gif');
+  }
+  a {
+    height: 36px;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+    font-size: 15px;
+  }
+}
+
+</style>

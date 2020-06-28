@@ -1,0 +1,29 @@
+<template lang="pug">
+.image3-bar.clear
+  .left.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+  .cent.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+  .right.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+</template>
+
+
+<style lang="less">
+.image3-bar {
+  margin-top: 20px;
+  a {
+    display: block;
+  }
+  a, img {
+    width: 326px;
+    height: 150px;
+  }
+  .cent {
+    margin: 0 11px;
+  }
+}
+</style>
