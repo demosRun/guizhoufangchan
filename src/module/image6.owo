@@ -1,0 +1,43 @@
+<template lang="pug">
+ul.image6-bar.clear
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="380" height="170")
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="380" height="170")
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="380" height="170")
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="380" height="170")
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="380" height="170")
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="380" height="170")
+</template>
+
+
+<style lang="less">
+.image6-bar {
+  width: 1230px;
+  margin-top: 40px;
+  a {
+    display: block;
+  }
+  a, img {
+    width: 100%;
+    height: 100%;
+  }
+  li {
+    float: left;
+    margin-right: 30px;
+    width: 380px;
+    margin-bottom: 20px;
+    height: 170px;
+  }
+}
+</style>

@@ -30,6 +30,7 @@
   font-family: "微软雅黑","Microsoft YaHei";
   text-align:center;
   color: white;
+  width: 1200px;
 }
 .pd_nav a {
   margin: auto 8px;

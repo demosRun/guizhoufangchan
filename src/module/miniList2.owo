@@ -1,0 +1,67 @@
+<template lang="pug">
+.mini-list-box.mini-list-box-4
+  .image-item.clear
+    .left.fl
+      a(href="#" target="_blank")
+        img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg")
+    .right.fr
+      h2 标题标题标题标题标题
+      p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要.
+  ul
+    li
+      a(href="#" target="_blank") 标题标题标题标题标题标题标
+    li
+      a(href="#" target="_blank") 标题标题标题标题标题标题标
+    li
+      a(href="#" target="_blank") 标题标题标题标题标题标题标
+    li
+      a(href="#" target="_blank") 标题标题标题标题标题标题标
+</template>
+
+
+<style lang="less">
+.mini-list-box-4 {
+  border: 1px solid #adadad;
+  padding: 10px;
+  margin-top: 20px;
+  line-height: 24px;
+  font-size: 16px;
+  li {
+    background-image: url('@|doit-2.png|');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 14px;
+  }
+  li, a, img {
+    display: block;
+    color: #878282;
+    height: 24px;
+    overflow: hidden;
+  }
+  .image-item {
+    .left {
+      width: 72px;
+      height: 72px;
+    }
+    a, img {
+      height: 100%;
+      width: 100%;
+    }
+    .right {
+      width: 170px;
+      color: #878282;
+      h2 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 13px;
+      }
+    }
+  }
+  .image-item {
+    margin-bottom: 10px;
+  }
+}
+
+</style>

@@ -3,7 +3,7 @@
   .swiper-container.clear
     .swiper-wrapper
       .swiper-slide(:for="data._swiperBoxList")
-        img(src="{value.src}" width="410" height="280")
+        img(src="{value.src}" width="480" height="280")
         .text {value.text}
     .pagination
 </template>
@@ -36,7 +36,7 @@
 .swiper-box {
   height: 280px;
   overflow: hidden;
-  width: 410px;
+  width: 480px;
   margin: 0 auto;
   img {
     width: 100%;

@@ -1,0 +1,36 @@
+<template lang="pug">
+ul.mini-list-box.mini-list-box-1
+  li
+    a(href="#" target="_blank") 标题标题标题标题标题标题标
+  li
+    a(href="#" target="_blank") 标题标题标题标题标题标题标
+  li
+    a(href="#" target="_blank") 标题标题标题标题标题标题标
+  li
+    a(href="#" target="_blank") 标题标题标题标题标题标题标
+  li
+    a(href="#" target="_blank") 标题标题标题标题标题标题标
+</template>
+
+
+<style lang="less">
+.mini-list-box {
+  border: 1px solid #adadad;
+  padding: 10px;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 18px;
+  li {
+    background-image: url('@|doit-1.png|');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 14px;
+  }
+  li, a {
+    display: block;
+    color: #878282;
+    height: 34px;
+    overflow: hidden;
+  }
+}
+</style>

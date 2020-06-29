@@ -1,0 +1,27 @@
+<template lang="pug">
+//- 左右两侧标题
+.title-bar.clear
+  img.left.fl(src="@|gg2.png|"  width="228" height="80")
+  //- 右侧的广告
+  .right.fr
+    a(href="#" target="_blank")
+      img(src="@|gg2.png|"  width="630" height="80")
+</template>
+
+
+<style lang="less">
+.title-bar {
+  .left {
+    height: 80px;
+  }
+  .right {
+    width: 630px;
+    height: 80px;
+    a, img {
+      width: 100%;
+      height: 80px;
+      display: block;
+    }
+  }
+}
+</style>

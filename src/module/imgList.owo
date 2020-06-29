@@ -1,0 +1,60 @@
+<template lang="pug">
+ul.img-list-2.clear
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 底部文字底部文字
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 底部文字底部文字
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 底部文字底部文字
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 底部文字底部文字
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 底部文字底部文字
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 底部文字底部文字
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 底部文字底部文字
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      p 底部文字底部文字
+</template>
+
+
+<style lang="less">
+.img-list-2 {
+  margin-top: 20px;
+  width: 888px;
+  li {
+    float: left;
+    width: 198px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  li, img {
+    width: 207px;
+    display: block;
+  }
+  p {
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+  }
+}
+</style>

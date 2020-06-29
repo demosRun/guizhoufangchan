@@ -5,7 +5,7 @@
   plug(_name="daohang" _src="./src/module/daohang.owo")
   //- 导航栏
   plug(_name="module60" _src="https://template.owo.ink/c2cab888fc67bf34.owo")
-  .w1000
+  .w1200
     //- banner
     .banner
       img(src="http://www.people.com.cn/NMediaFile/2020/0627/MAIN202006271254040554431252011.jpg")
@@ -24,15 +24,9 @@
         .show-image
           img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg")
           .info 底部显示文字
-    .two-box
-      .left-box
-        //- 左右两侧标题
-        .title-bar.clear
-          img.left.fl(src="@|ppfq.png|")
-          //- 右侧的广告
-          .right.fr
-            a(href="#" target="_blank")
-              img(src="@|ppfq.png|")
+    .two-box.clear
+      .left-box.fl
+        plug(_name="twoTitle" _src="./src/module/twoTitle.owo")
         //- 列表hezi
         .news-list-box.clear
           //- 左侧文字列表
@@ -65,6 +59,78 @@
               .card-right.fr
                 a(href="#" target="_blank")
                   img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg" width="146" height="132")
+          ul.right.fr
+            li
+              a(href="#" target="_blank")
+                img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg")
+                p 标题标题标题标题标题标题
+            li
+              a(href="#" target="_blank")
+                img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg")
+                p 标题标题标题标题标题标题
+            li
+              a(href="#" target="_blank")
+                img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280917313294738939494.jpg")
+                p 标题标题标题标题标题标题
+      .right-box.fr
+        .mini-title
+          img(src="@|gg2.png|" width="228" height="80")
+        plug.mini-list-box-1(_name="miniList" _src="./src/module/miniList.owo")
+        .h20
+        .mini-title
+          img(src="@|gg2.png|" width="228" height="80")
+        plug.mini-list-box-2(_name="miniList" _src="./src/module/miniList.owo")
+        //- 广告位
+        .show-box-a
+          img(src="@|gg2.png|")
+    //- 长的展示信息
+    .title-bar-long.clear
+      img.left.fl(src="@|gg2.png|" width="228" height="80")
+      //- 右侧的广告
+      .right.fr
+        a(href="#" target="_blank")
+          img(src="@|gg2.png|" width="950" height="80")
+    plug(_name="show5" _src="./src/module/show5.owo")
+    //- 左右两侧盒子
+    .two-box.two-box-2.clear
+      .left-box.fl
+        //- 左右两侧标题
+        plug(_name="twoTitle" _src="./src/module/twoTitle.owo")
+        plug(_name="newsBox" _src="./src/module/newsBox.owo")
+        .h20
+        plug(_name="twoTitle" _src="./src/module/twoTitle.owo")
+        //- 轮播图
+        plug(_name="module4" _src="https://template.owo.ink/1cd5639a32eae500.owo")
+        .h20
+        plug(_name="twoTitle" _src="./src/module/twoTitle.owo")
+        plug(_name="imgList" _src="./src/module/imgList.owo")
+      .right-box.fr
+        .mini-title
+          img(src="@|gg2.png|" width="228" height="80")
+        plug.mini-list-box-3(_name="miniList" _src="./src/module/miniList.owo")
+        .h20
+        .mini-title
+          img(src="@|gg2.png|" width="228" height="80")
+        plug.mini-list-box-3(_name="miniList" _src="./src/module/miniList.owo")
+        .h20
+        .mini-title
+          img(src="@|gg2.png|" width="228" height="80")
+        plug.mini-list-box-3(_name="miniList" _src="./src/module/miniList.owo")
+        .h20
+        .mini-title
+          img(src="@|gg2.png|" width="228" height="80")
+        plug.mini-list-box-3(_name="miniList" _src="./src/module/miniList.owo")
+        .h20
+        .mini-title
+          img(src="@|gg2.png|" width="228" height="80")
+        plug.mini-list-box-3(_name="miniList2" _src="./src/module/miniList2.owo")
+    //- 一排四个
+    plug(_name="image4" _src="./src/module/image4.owo")
+    //- 三个卡片
+    plug(_name="card3" _src="./src/module/card3.owo")
+    //- 六个卡片
+    plug(_name="image6" _src="./src/module/image6.owo")
+  plug(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
 </template>
 
 <script>
@@ -85,7 +151,7 @@
   height: 300px;
 }
 .news-list {
-  width: 300px;
+  width: 370px;
 }
 .news-box {
   margin-top: 20px;
@@ -93,13 +159,13 @@
     margin: 0 25px;
   }
   .right {
-    width: 240px;
+    width: 300px;
     overflow: hidden;
     .show-image {
       height: 130px;
       position: relative;
       img {
-        width: 240px;
+        width: 300px;
         height: 130px;
       }
     }
@@ -119,7 +185,22 @@
     height: 80px;
   }
   .right {
-    width: 550px;
+    width: 630px;
+    height: 80px;
+    a, img {
+      width: 100%;
+      height: 80px;
+      display: block;
+    }
+  }
+}
+.title-bar-long {
+  margin-top: 20px;
+  .left {
+    height: 80px;
+  }
+  .right {
+    width: 950px;
     height: 80px;
     a, img {
       width: 100%;
@@ -129,12 +210,22 @@
   }
 }
 .left-box {
-  width: 800px;
+  width: 875px;
 }
 .two-box {
   margin-top: 20px;
+  .right-box {
+    width: 280px;
+  }
 }
 .news-list-box {
+  border: 1px solid #adadad;
+  padding: 0 15px;
+  padding-top: 10px;
+  margin-top: 20px;
+  a {
+    display: block;
+  }
   .card-left {
     width: 300px;
     h2 {
@@ -144,21 +235,73 @@
       font-size: 14px;
       text-indent: 2em;
       line-height: 1.7;
+      height: 92px;
+      overflow: hidden;
     }
-  }
-  li {
-    width: 460px;
-    padding: 10px 5px;
-    margin: 15px 0;
-  }
-  li:nth-child(odd) {
-    background: #eeeeee;
   }
   .card-right {
     img {
       height: 132px;
-      width: 146px;
+      width: 160px;
     }
+  }
+  .left {
+    li {
+      width: 470px;
+      padding: 10px 5px;
+      margin-bottom: 15px;
+    }
+    li:nth-child(odd) {
+      background: #eeeeee;
+    }
+  }
+  .right {
+    width: 320px;
+    li {
+      margin-bottom: 15px;
+    }
+    img {
+      width: 320px;
+      height: 172px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 40px;
+      height: 40px;
+      overflow: hidden;
+    }
+  }
+}
+.mini-title {
+  height: 80px;
+  img {
+    display: block;
+  }
+}
+
+.show-box-a {
+  margin-top: 20px;
+  height: 184px;
+  overflow: hidden;
+  a, img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+.two-box-2 .left-box {
+  .h20 {
+    height: 40px;
+  }
+  .img-list-2, .LbWMGSGs {
+    margin-top: 40px;
+  }
+}
+.two-box-2 .right-box {
+  .mini-list-box li, .mini-list-box li a {
+    line-height: 26px;
+    height: 26px;
+    font-size: 16px;
   }
 }
 </style>

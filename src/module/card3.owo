@@ -1,0 +1,45 @@
+<template lang="pug">
+ul.card-3.clear
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg")
+      h2 验房标题验房标题验房标题
+      p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......
+  li.cent
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg")
+      h2 验房标题验房标题验房标题
+      p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......
+  li
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg")
+      h2 验房标题验房标题验房标题
+      p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......
+</template>
+
+
+<style lang="less">
+.card-3 {
+  margin-top: 20px;
+  background-color: #cfcfcf;
+  padding: 15px;
+  li {
+    float: left;
+    width: 376px;
+    overflow: hidden;
+  }
+  .cent {
+    margin: 0 21px;
+  }
+  h2 {
+    color: black;
+    line-height: 44px;
+  }
+  p {
+    color: #878282;
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+}
+</style>

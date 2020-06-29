@@ -1,0 +1,61 @@
+<template lang="pug">
+.news-box-2.clear
+  .left.fl
+    a(href="#" target="_blank")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0629/MAIN202006290919126721761811497.jpg" width="445" height="345")
+      p 文字内容文字内容文字内容文字内容文字内容
+  ul.right.fr.clear
+    li
+      a(href="#" target="_blank")
+        img(src="http://www.people.com.cn/NMediaFile/2020/0629/MAIN202006290919126721761811497.jpg")
+        p 文字内容文字内容文字内容文字内容文字内容
+    li
+      a(href="#" target="_blank")
+        img(src="http://www.people.com.cn/NMediaFile/2020/0629/MAIN202006290919126721761811497.jpg")
+        p 文字内容文字内容文字内容文字内容文字内容
+    li
+      a(href="#" target="_blank")
+        img(src="http://www.people.com.cn/NMediaFile/2020/0629/MAIN202006290919126721761811497.jpg")
+        p 文字内容文字内容文字内容文字内容文字内容
+    li
+      a(href="#" target="_blank")
+        img(src="http://www.people.com.cn/NMediaFile/2020/0629/MAIN202006290919126721761811497.jpg")
+        p 文字内容文字内容文字内容文字内容文字内容
+</template>
+
+
+<style lang="less">
+.news-box-2 {
+  margin-top: 20px;
+  border: 1px solid #adadad;
+  padding: 5px;
+  box-sizing: border-box;
+  .left {
+    width: 445px;
+    p {
+      line-height: 40px;
+      font-size: 20px;
+      text-align: center;
+      color: black;
+    }
+  }
+}
+.right {
+  width: 410px;
+  li {
+    float: left;
+    width: 195px;
+    padding-left: 10px;
+  }
+  p {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+  }
+}
+a, img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+</style>

@@ -1,0 +1,53 @@
+<template lang="pug">
+.show-5-bar.clear
+  .cent.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="224" height="125")
+      p 楼盘名称
+  .cent.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="224" height="125")
+      p 楼盘名称
+  .cent.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="224" height="125")
+      p 楼盘名称
+  .cent.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="224" height="125")
+      p 楼盘名称
+  .right.fl
+    a(href="#")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="224" height="125")
+      p 楼盘名称
+</template>
+
+
+<style lang="less">
+.show-5-bar {
+  margin-top: 20px;
+  .fl {
+    position: relative;
+  }
+  p {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    font-size: 14px;
+  }
+  a {
+    display: block;
+  }
+  a, img {
+    width: 224px;
+    height: 125px;
+  }
+  .cent {
+    margin-right: 20px;
+  }
+}
+</style>

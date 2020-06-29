@@ -82,3 +82,7 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 .pc .no-pc, .phone .no-phone {
   display: none;
 }
+
+.pd_nav.w1000 {
+  width: 1200px;
+}

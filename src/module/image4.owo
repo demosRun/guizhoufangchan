@@ -22,11 +22,11 @@
     display: block;
   }
   a, img {
-    width: 239px;
-    height: 80px;
+    width: 280px;
+    height: 120px;
   }
   .cent {
-    margin: 0 11px;
+    margin: 0 20px;
   }
 }
 </style>

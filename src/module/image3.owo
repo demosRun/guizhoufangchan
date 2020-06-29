@@ -2,13 +2,13 @@
 .image3-bar.clear
   .left.fl
     a(href="#")
-      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="382" height="205")
   .cent.fl
     a(href="#")
-      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="382" height="205")
   .right.fl
     a(href="#")
-      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="326" height="150")
+      img(src="http://www.people.com.cn/NMediaFile/2020/0628/MAIN202006280536034779845588620.jpg" width="382" height="205")
 </template>
 
 
@@ -18,12 +18,12 @@
   a {
     display: block;
   }
-  a, img {
-    width: 326px;
-    height: 150px;
+  a, img, .fl {
+    width: 382px;
+    height: 205px;
   }
   .cent {
-    margin: 0 11px;
+    margin: 0 27px;
   }
 }
 </style>
